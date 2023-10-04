@@ -4,7 +4,7 @@ function playMusic() {
     const body = document.body;
     const audio = document.getElementById("myaudio");
     
-    body.addEventListener("mouseover", () => {
+    body.addEventListener("mouseenter", () => {
         audio.play();
     });
 };
