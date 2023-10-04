@@ -1,10 +1,10 @@
+const body = document.body;
+const audio = document.getElementById("myaudio");
 
-function playMusic() {
+body.addEventListener("mouseenter", () => {
+    audio.play();
+})
 
-    const body = document.body;
-    const audio = document.getElementById("myaudio");
-    
-    body.addEventListener("mouseenter", () => {
-        audio.play();
-    });
-};
+body.addEventListener("mouseleave", () => {
+    audio.play();
+})
