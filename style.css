@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Young Serif', serif;
+    color: white;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    background-image: url("./sigma.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main_content {
+    margin-right: 5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main_content .title h1 {
+    font-size: 3.2rem;
+    color: #fbf9f6;
+}
+
+.main_content .title h2 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.main_content .title h2 span {
+    font-size: 3rem;
+}
+
+.main_content .title h2 span a {
+    color: #45FFCA;
+}
+
+
+.main_content .desc h2 {
+    margin: 3rem 0 1rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+    color: e4e3df;
+}
+
+.main_content .desc .button {
+    text-align: center;
+    padding: 1rem;
+}
+
+.main_content .desc button {
+    height: 6rem;
+    width: 20rem;
+    background: #da1e3d;
+    color: transparent;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 4rem;
+    border: none;
+    transition: 0.2s;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+
+.main_content .desc button:hover{
+    background: transparent;
+    border: solid .2rem #da1e3d;
+    box-shadow: 0 0 20px #da1e3d;
+}
+
+.main_content .desc button:hover a{
+    color: #da1e3d;
+}
